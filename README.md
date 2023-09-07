@@ -36,18 +36,18 @@ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
 
 ## Citation
 
-<!-- ```
-@software{colin_brisson_2023_7539324,
+```
+@software{colin_brisson_2023_8325546,
   author       = {Colin Brisson and
                   Frédéric Constant and
-                  Bui Marc},
-  title        = {{colibrisson/numerica\_sinologica\_siku\_htr\_models: 
-                   First release}},
-  month        = jan,
+                  Marc Bui},
+  title        = {{CHAT models: Chinese Historical documents 
+                   Automatic Transcription models}},
+  month        = sep,
   year         = 2023,
   publisher    = {Zenodo},
-  version      = {v0.0.1},
-  doi          = {10.5281/zenodo.7539324},
-  url          = {https://doi.org/10.5281/zenodo.7539324}
+  version      = {pre-release},
+  doi          = {10.5281/zenodo.8325546},
+  url          = {https://doi.org/10.5281/zenodo.8325546}
 }
-``` -->
+```
