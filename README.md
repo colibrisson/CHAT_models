@@ -1,6 +1,6 @@
 # CHAT models: Chinese Historical documents Automatic Transcription models
 
-[![DOI](https://doi.org/10.5281/zenodo.8325545)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8325546.svg)](https://doi.org/10.5281/zenodo.8325546)
 
 ![Reading Cat](./assets/reading_cat.png)
 
