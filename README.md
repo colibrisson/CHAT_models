@@ -28,7 +28,7 @@ We wish to thank kraken main developer, Benjamin Kiessling, and the eScriptorium
 
 This work received funding from the Centre Chine, Corée, Japon (UMR 8173), the Centre de recherche sur les civilisations de l'Asie orientale (UMR 8155), the Institut d'Asie orientale (UMR 5062), the Institut Universitaire de France, and the Vietnamica project (ERC 833933).
 
-We gratefully acknowledge support from the CNRS/IN2P3 Computing Center (Lyon - France) and manuscriptologIA (DIM - STN) for providing computing and data-processing resources needed for this work.
+We gratefully acknowledge support from the CNRS/IN2P3 Computing Center (Lyon - France), manuscriptologIA (DIM - STN) and Azzurra HPC center (Université Côte d'Azur) for providing computing and data-processing resources needed for this work.
 
 ## License
 
