@@ -1,4 +1,4 @@
-# Chinese Historical documents Automatic Transcription (CHAT) models
+# CHAT models: Chinese Historical documents Automatic Transcription models
 
 ![Reading Cat](./assets/reading_cat.png)
 
