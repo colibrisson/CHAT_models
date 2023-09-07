@@ -10,11 +10,11 @@ This work is part of an ongoing project by the Numerica Sinologica consortium to
 
 ## Segmentation model
 
-- `chat_rec.mlmodel` is trained to segment binary images with a 9:16 aspect ratio.
+- [`chat_seg.mlmodel`](./models/chat_seg.mlmodel) is trained to segment binary images with a 9:16 aspect ratio.
 
 ## Recognition model
 
-- `chat_rec.mlmodel` was trained on an expansive dataset of 1.7 million lines sourced from prints and manuscripts spanning the 10th to the 20th century. The model achieved an accuracy exceeding 99% across various test datasets. For optimal performance, it's recommended to apply the model on binary images.
+- [`chat_rec.mlmodel`](./models/chat_rec.mlmodel) was trained on an expansive dataset of 1.7 million lines sourced from prints and manuscripts spanning the 10th to the 20th century. The model achieved an accuracy exceeding 99% across various test datasets. For optimal performance, it's recommended to apply the model on binary images.
 
 ## Getting Started
 
