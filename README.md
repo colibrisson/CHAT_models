@@ -1,10 +1,10 @@
 # CHAT models: Chinese Historical documents Automatic Transcription models
 
+[![DOI](https://doi.org/10.5281/zenodo.8325545)
+
 ![Reading Cat](./assets/reading_cat.png)
 
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7539324.svg)](https://doi.org/10.5281/zenodo.7539324) -->
-
-This repository contains segmentation and transcription models trained using the [kraken OCR engine](https://github.com/mittagessen/kraken). 
+This repository contains segmentation and transcription models trained using the [kraken OCR engine](https://github.com/mittagessen/kraken).
 
 This work is part of an ongoing project by the Numerica Sinologica consortium to build open-source digital tools for pre-modern Chinese studies.
 
@@ -14,7 +14,7 @@ This work is part of an ongoing project by the Numerica Sinologica consortium to
 
 ## Recognition model
 
-- `chat_rec.mlmodel` was trained on an expansive dataset of 1.7 million lines sourced from prints and manuscripts spanning the 10th to the 20th century. The model achieved an accuracy exceeding 99% across various test datasets. For optimal performance, it's recommended to use binary images where the text lines are wider than 60 pixels.
+- `chat_rec.mlmodel` was trained on an expansive dataset of 1.7 million lines sourced from prints and manuscripts spanning the 10th to the 20th century. The model achieved an accuracy exceeding 99% across various test datasets. For optimal performance, it's recommended to apply the model on binary images.
 
 ## Getting Started
 
