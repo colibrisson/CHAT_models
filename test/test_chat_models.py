@@ -58,6 +58,10 @@ if __name__ == '__main__':
         # Load image
         img = Image.open(img_path)
 
+        # Binarize the image
+        img = img.convert("L")
+        img = img.point(lambda x: 0 if x < 128 else 255, "1")
+
         # Segment the image
         baseline_seg = blla.segment(img, text_direction="vertical-rl", model=seg_model)
         
