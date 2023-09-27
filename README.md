@@ -75,7 +75,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
   year         = 2023,
   publisher    = {Zenodo},
   version      = {pre-release},
-  doi          = {10.5281/zenodo.8325546},
-  url          = {https://doi.org/10.5281/zenodo.8325546}
+  doi          = {10.5281/zenodo.8325545},
+  url          = {https://doi.org/10.5281/zenodo.8325545}
 }
 ```
