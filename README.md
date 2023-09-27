@@ -65,17 +65,17 @@ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
 ## Citation
 
 ```
-@software{colin_brisson_2023_8325546,
+@software{colin_brisson_2023_8383732,
   author       = {Colin Brisson and
                   Frédéric Constant and
                   Marc Bui},
-  title        = {{CHAT models: Chinese Historical documents 
-                   Automatic Transcription models}},
+  title        = {{Chinese Historical documents Automatic 
+                   Transcription (CHAT) models}},
   month        = sep,
   year         = 2023,
   publisher    = {Zenodo},
-  version      = {pre-release},
-  doi          = {10.5281/zenodo.8325545},
-  url          = {https://doi.org/10.5281/zenodo.8325545}
+  version      = {v0},
+  doi          = {10.5281/zenodo.8383732},
+  url          = {https://doi.org/10.5281/zenodo.8383732}
 }
 ```
