@@ -1,4 +1,4 @@
-# CHAT models: Chinese Historical documents Automatic Transcription models
+# Chinese Historical documents Automatic Transcription (CHAT) models
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8325546.svg)](https://doi.org/10.5281/zenodo.8325546)
 
@@ -10,17 +10,45 @@ This work is part of an ongoing project by the Numerica Sinologica consortium to
 
 ## Segmentation model
 
-- [chat_seg.mlmodel](./models/chat_seg.mlmodel) is trained to segment binary images with a 9:16 aspect ratio.
+**chat_seg.mlmodel** is trained to segment binary images that have a 9:16 aspect ratio. It identifies various regions:
+
+- **Main**
+- **Margin**
+- **Illustration**
+- **Other**
+
+It also recognizes different line types:
+
+- **default** (Standard line type)
+- **DoubleLine**
 
 ## Recognition model
 
-- [chat_rec.mlmodel](./models/chat_rec.mlmodel) was trained on an expansive dataset of 1.7 million lines sourced from prints and manuscripts spanning the 10th to the 20th century. The model achieved an accuracy exceeding 99% across various test datasets. For optimal performance, it's recommended to apply the model on binary images.
+**chat_rec.mlmodel** was trained on an expansive dataset of 1.7 million lines sourced from prints and manuscripts spanning from the 10th to the 20th century. The model is able to recognize more than 16 000 characters with an accuracy exceeding 99%. 
 
+For the best results, apply the model to binary images where the column width exceeds 90 pixels.
+
+## Reading order model
+
+We will publish a model to compute the reading order as soon as this feature get added to kraken main branch.
 ## Getting Started
 
-To test the models, install kraken and run:
+Install kraken:
+```bash
+pip install kraken
+```
 
-`python test/test_chat_models.py`
+Clone this repository:
+```bash
+git clone https://github.com/colibrisson/CHAT_models.git
+cd ./CHAT_models
+```
+
+Run the demo:
+```bash
+python demo/chat_models_demo.py
+```
+For further details, please refer to the [kraken documentation](https://kraken.re/).
 
 ## Acknowledgement
 
