@@ -1,3 +1,5 @@
+
+
 # Chinese Historical documents Automatic Transcription (CHAT) models
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8325545.svg)](https://doi.org/10.5281/zenodo.8325545)
@@ -44,7 +46,7 @@ git clone https://github.com/colibrisson/CHAT_models.git
 cd ./CHAT_models
 ```
 
-Run the demo:
+Run the demo, which processes all PNG images in the `test` directory:
 ```bash
 python demo/chat_models_demo.py
 ```
